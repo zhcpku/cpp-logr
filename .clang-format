@@ -1,0 +1,86 @@
+# 该模板对C, C++, ObjectiveC, ObjectiveC++都有效
+Language: Cpp
+
+# 格式兼容C++11
+Standard: Cpp11
+
+# 基础样式
+#BasedOnStyle: LLVM
+
+# include的排序
+IncludeBlocks: Regroup
+
+# 缩进宽度
+IndentWidth: 4
+TabWidth: 4
+UseTab: Never
+
+# switch的case缩进
+IndentCaseLabels: true
+
+#在续行(\ 下一行)时的缩进长度
+ContinuationIndentWidth: 4
+
+# block开始前插入空行
+KeepEmptyLinesAtTheStartOfBlocks: true
+
+# 最大连续空行数为1
+MaxEmptyLinesToKeep: 1
+
+# 指针向右对齐: 即靠近指针变量名
+PointerAlignment: Right
+
+# 行尾注释对齐
+AlignTrailingComments: true
+
+# 在未封闭(括号的开始和结束不在同一行)的括号中的代码对齐
+AlignAfterOpenBracket: true
+
+# 允许函数参数换行
+AllowAllParametersOfDeclarationOnNextLine: true
+
+# 不允许较短 if语句 在同一行
+AllowShortIfStatementsOnASingleLine: false
+
+# 不允许较短 case 在同一行
+AllowShortCaseLabelsOnASingleLine: false
+
+# 不允许较短 block 在同一行
+AllowShortBlocksOnASingleLine: false
+
+# 不允许较短循环体在一行
+AllowShortLoopsOnASingleLine: false
+
+# 允许空函数一行显示
+AllowShortFunctionsOnASingleLine: Empty
+
+# 总是在template声明后换行
+AlwaysBreakTemplateDeclarations: true
+
+# 圆括号的换行方式
+BreakBeforeBraces: Attach
+
+# 在构造函数初始化时按逗号断行，并以冒号对齐
+BreakConstructorInitializersBeforeComma: true
+
+# 每行字符的长度
+ColumnLimit: 120
+
+# 赋值运算符前加空格
+SpaceBeforeAssignmentOperators: true
+
+# 只在条件表示示括号前加上空格
+SpaceBeforeParens: ControlStatements
+
+# 行尾的注释前加1个空格
+SpacesBeforeTrailingComments: 1
+
+# 不在括号里加空格
+SpaceInEmptyParentheses: false
+SpacesInAngles: false
+SpacesInCStyleCastParentheses: false
+SpacesInParentheses: false
+SpacesInSquareBrackets: false
+
+# 括号后加空格
+SpaceAfterCStyleCast: true
